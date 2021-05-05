@@ -1,0 +1,15 @@
+.navbar{
+    height: 50px;
+    background-color: transparent;
+}
+.navbar-coloring{
+    transition: all 0.2s;
+    background-color: #FF3B1F;
+}
+
+.t-link-white{
+    color: white!important;
+}
+.t-link-white:hover{
+    color: rgba(240,240,240, 0.2);
+}
