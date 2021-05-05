@@ -3,6 +3,9 @@
 use App\Http\Controllers\homeController;
 use Illuminate\Support\Facades\Route;
 
+// use function routing admins
+use App\Http\Controllers\admin\dashboardController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -19,5 +22,5 @@ Route::get('/', [homeController::class, 'home'])->name('index');
 
 // admin routing the web
 Route::prefix('admin')->group(function () {
-    Route::get('/', )->name('dashboard');
+    Route::get('/', [dashboardController::class, 'dashboard'])->name('dashboard');
 });
