@@ -16,3 +16,8 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/', [homeController::class, 'home'])->name('index');
+
+// admin routing the web
+Route::prefix('admin')->group(function () {
+    Route::get('/', )->name('dashboard');
+});
