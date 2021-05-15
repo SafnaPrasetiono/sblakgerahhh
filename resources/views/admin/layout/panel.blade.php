@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     @yield('title')
     <link rel="stylesheet" href="{{ url('/assets/app/css/app.css') }}">
-    <link rel="stylesheet" href="{{ url('/assets/icon/all.css') }}">
+    <link rel="stylesheet" href="{{ url('/assets/icons/all.css') }}">
     <link rel="stylesheet" href="{{ url('/dist/css/admin/panel.css') }}">
 </head>
 
