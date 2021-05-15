@@ -91,7 +91,7 @@
     <script src="{{ url('assets/app/js/jquery.js') }}"></script>
     <script src="{{ url('assets/app/js/popper.js') }}"></script>
     <script src="{{ url('assets/app/js/app.js') }}"></script>
-    <script src="{{ url('assets/icon/all.js') }}"></script>
+    <script src="{{ url('assets/icons/all.js') }}"></script>
     <script src="{{ url('dist/js/user/panel.js') }}"></script>
     @yield('script')
 </body>
