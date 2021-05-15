@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     @yield('title')
     <link rel="stylesheet" href="{{ url('/assets/app/css/app.css') }}">
-    <link rel="stylesheet" href="{{ url('/assets/icons/all.css') }}">
+    <link rel="stylesheet" href="{{ url('/assets/icons/css/all.css') }}">
     <link rel="stylesheet" href="{{ url('/dist/css/admin/panel.css') }}">
 </head>
 
@@ -119,7 +119,6 @@
     <script src="{{ url('/assets/app/js/jquery.js') }}"></script>
     <script src="{{ url('/assets/app/js/popper.js') }}"></script>
     <script src="{{ url('/assets/app/js/app.js') }}"></script>
-    <script src="{{ url('/assets/icons/all.js') }}"></script>
 </body>
 
 </html>
