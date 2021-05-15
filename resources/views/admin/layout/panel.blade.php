@@ -116,10 +116,10 @@
     </div>
 
     <div class="menu-background collapse" id="menubackground"></div>
-    <script src="{{ url('assets/app/js/jquery.js') }}"></script>
-    <script src="{{ url('assets/app/js/popper.js') }}"></script>
-    <script src="{{ url('assets/app/js/app.js') }}"></script>
-    <script src="{{ url('assets/icon/all.js') }}"></script>
+    <script src="{{ url('/assets/app/js/jquery.js') }}"></script>
+    <script src="{{ url('/assets/app/js/popper.js') }}"></script>
+    <script src="{{ url('/assets/app/js/app.js') }}"></script>
+    <script src="{{ url('/assets/icons/all.js') }}"></script>
 </body>
 
 </html>
