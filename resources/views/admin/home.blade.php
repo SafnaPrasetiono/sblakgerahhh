@@ -1,4 +1,4 @@
-@extends('layout.panel')
+@extends('admin.layout.panel')
 
 @section('title')
     <title>Seblak Gerah - Dashboard</title>
