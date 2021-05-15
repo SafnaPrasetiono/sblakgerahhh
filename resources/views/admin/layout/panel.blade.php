@@ -76,32 +76,32 @@
             </div>
             <nav class="nav flex-column">
                 <a class="nav-link links active" href="#">
-                    <i class="fa fa-home box-icon" aria-hidden="true"></i> Home
+                    <i class="fa fa-home box-icon" aria-hidden="true"></i>Home
                 </a>
                 <a class="nav-link links" href="#">
-                    <i class="fa fa-users box-icon" aria-hidden="true"></i> Pengelolah
+                    <i class="fa fa-users box-icon" aria-hidden="true"></i>Pengelolah
                 </a>
                 <a class="nav-link links" href="#">
                     <i class="fa fa-book box-icon" aria-hidden="true"></i>Data Induk
                 </a>
                 <hr class="dropdown-divider text-white">
                 <a class="nav-link links" href="#">
-                    <i class="fa fa-bell box-icon" aria-hidden="true"></i> Notifikasi
+                    <i class="fa fa-bell box-icon" aria-hidden="true"></i>Notifikasi
                 </a>
                 <a class="nav-link links d-flex" href="#">
-                    <i class="fa fa-envelope box-icon" aria-hidden="true"></i> Messeger
+                    <i class="fa fa-envelope box-icon" aria-hidden="true"></i>Messeger
                     <small class="menu-badge text-muted">10</small>
                 </a>
                 <hr class="dropdown-divider text-white">
                 <a class="nav-link links" href="#">
-                    <i class="fa fa-cog box-icon" aria-hidden="true"></i> Setting
+                    <i class="fa fa-cog box-icon" aria-hidden="true"></i>Setting
                 </a>
                 <a class="nav-link links" href="#">
-                    <i class="fa fa-id-card box-icon" aria-hidden="true"></i> About Me
+                    <i class="fa fa-id-card box-icon" aria-hidden="true"></i>About Me
                 </a>
                 <hr class="dropdown-divider text-white">
                 <a class="nav-link links" href="#">
-                    <i class="fa fa-sign-out box-icon" aria-hidden="true"></i> LogOut
+                    <i class="fa fa-sign-out box-icon" aria-hidden="true"></i>LogOut
                 </a>
             </nav>
         </div>
