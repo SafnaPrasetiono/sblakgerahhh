@@ -26,14 +26,14 @@
                         <li class="nav-item px-1">
                             <a class="nav-link" href="#">
                                 <div class="nav-icon d-block rounded-circle overflow-hidden">
-                                    <i class="fa fa-bell" aria-hidden="true"></i>
+                                    <i class="fas fa-bell fa-lg fa-fw"></i>
                                 </div>
                             </a>
                         </li>
                         <li class="nav-item px-1">
                             <a class="nav-link" href="#">
                                 <div class="nav-icon d-block rounded-circle overflow-hidden">
-                                    <i class="fa fa-envelope"></i>
+                                    <i class="fas fa-envelope fa-lg fa-fw"></i>
                                 </div>
                             </a>
                         </li>
