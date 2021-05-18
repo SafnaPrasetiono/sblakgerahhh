@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Route;
 
 // use function routing admins
 use App\Http\Controllers\admin\dashboardController;
+use App\Http\Controllers\admin\productController;
 
 /*
 |--------------------------------------------------------------------------
@@ -23,4 +24,8 @@ Route::get('/', [homeController::class, 'home'])->name('index');
 // admin routing the web
 Route::prefix('admin')->group(function () {
     Route::get('/', [dashboardController::class, 'dashboard'])->name('dashboard');
+
+
+    Route::get('/product', [productController::class, 'product'])->name('admin.product');
+    Route::get('/addproduct', [productController::class, 'addproduct'])->name('admin.addproduct');
 });

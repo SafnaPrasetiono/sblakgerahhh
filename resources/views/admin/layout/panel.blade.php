@@ -33,15 +33,14 @@
                         <li class="nav-item px-1">
                             <a class="nav-link" href="#">
                                 <div class="nav-icon d-block rounded-circle overflow-hidden">
-                                   <i class="fa fa-envelope" aria-hidden="true"></i>
+                                    <i class="fa fa-envelope" aria-hidden="true"></i>
                                 </div>
                             </a>
                         </li>
                         <li class="nav-item px-1 dropstart">
                             <a class="nav-link" href="#" id="dropuser" role="button" data-bs-toggle="dropdown">
                                 <div class="nav-icon-user d-block rounded-circle overflow-hidden">
-                                    <img src="https://i.pinimg.com/736x/33/ab/7e/33ab7eb219156df4ace81603f225bc31.jpg"
-                                        alt="user" class="img-fluid">
+                                    <img src="https://i.pinimg.com/736x/33/ab/7e/33ab7eb219156df4ace81603f225bc31.jpg" alt="user" class="img-fluid">
                                 </div>
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="dropuser">
@@ -62,8 +61,7 @@
                 <div class="row">
                     <div class="col-12 mb-2">
                         <div class="menu-images">
-                            <img src="https://i.pinimg.com/736x/33/ab/7e/33ab7eb219156df4ace81603f225bc31.jpg"
-                                alt="user" class="img-fluid">
+                            <img src="https://i.pinimg.com/736x/33/ab/7e/33ab7eb219156df4ace81603f225bc31.jpg" alt="user" class="img-fluid">
                         </div>
                     </div>
                     <div class="col-12">
@@ -74,16 +72,27 @@
                     </div>
                 </div>
             </div>
-            <nav class="nav flex-column">
+            <nav class="nav flex-column accordion" id="menusaccordions">
                 <a class="nav-link links active" href="#">
                     <i class="fa fa-home box-icon" aria-hidden="true"></i>Home
                 </a>
                 <a class="nav-link links" href="#">
                     <i class="fa fa-users box-icon" aria-hidden="true"></i>Pengelolah
                 </a>
-                <a class="nav-link links" href="#">
-                    <i class="fa fa-book box-icon" aria-hidden="true"></i>Data Induk
+                <a class="nav-link links" href="#" data-bs-toggle="collapse" data-bs-target="#product">
+                    <i class="fa fa-book box-icon" aria-hidden="true"></i>Data Product
                 </a>
+                <div id="product" class="accordion-collapse collapse" data-bs-parent="#menusaccordions">
+                    <a class="nav-link links ps-4" href="{{ route('admin.product') }}">
+                        <i class="fa fa-dropbox box-icon" aria-hidden="true"></i>Add Product
+                    </a>
+                    <a class="nav-link links ps-4" href="#">
+                        <i class="fa fa-dropbox box-icon" aria-hidden="true"></i>Add Product Injection
+                    </a>
+                    <a class="nav-link links ps-4" href="#">
+                        <i class="fa fa-dropbox box-icon" aria-hidden="true"></i>All Product
+                    </a>
+                </div>
                 <hr class="dropdown-divider text-white">
                 <a class="nav-link links" href="#">
                     <i class="fa fa-bell box-icon" aria-hidden="true"></i>Notifikasi
@@ -109,7 +118,7 @@
 
 
         <div class="main">
-           @yield('mainpages')
+            @yield('mainpages')
         </div>
 
 
